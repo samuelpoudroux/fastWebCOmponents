@@ -1,6 +1,6 @@
 {
     "name": "fastwebcomponents",
-    "version": "1.0.1",
+    "version": "0.0.2",
     "description": "Librairy of more common tools to build a application or webPage",
     "main": "./index.js",
     "peerDependencies": {
@@ -25,6 +25,8 @@
         "webpack": "^4.29.6"
     },
     "devDependencies": {
+        "@babel/core": "^7.8.6",
+        "@babel/preset-env": "^7.8.6",
         "babel-cli": "^6.26.0",
         "babel-core": "^6.26.3",
         "babel-loader": "^8.0.6",
