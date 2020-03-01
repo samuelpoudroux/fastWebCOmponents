@@ -1,0 +1,43 @@
+{
+    "name": "fastwebcomponents",
+    "version": "1.0.1",
+    "description": "Librairy of more common tools to build a application or webPage",
+    "main": "./index.js",
+    "peerDependencies": {
+        "react": "^16.4.0"
+    },
+    "scripts": {
+        "start": "webpack --watch",
+        "build": "webpack",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "samuelpoudroux",
+    "license": "ISC",
+    "keywords": [
+        "promise",
+        "async",
+        "Virtual reality (VR)",
+        "Augmented reality (AR)"
+    ],
+    "dependencies": {
+        "react": "^16.8.6",
+        "webpack": "^4.29.6"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-core": "^6.26.3",
+        "babel-loader": "^8.0.5",
+        "babel-plugin-transform-object-rest-spread": "^6.26.0",
+        "babel-plugin-transform-react-jsx": "^6.24.1",
+        "babel-preset-env": "^1.7.0",
+        "webpack-cli": "^3.3.0"
+    },
+    "files": [
+        "dist",
+        "README.md"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/samuelpoudroux/fastWebCOmponents.git"
+    }
+}
